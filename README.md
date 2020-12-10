@@ -12,7 +12,7 @@
 
 - ![image-20201209155508078](https://github.com/Choyhanson/course_proj2_cloud643/blob/main/user_images/image-20201209155508078.png)
 
-2. #### Create the EMR-notebook [notebook link](./EMR-Notebook.ipynb)
+2. #### Create the EMR-notebook [notebook link](./main/EMR-Notebook.ipynb)
 
    ![image-20201209155742283](https://github.com/Choyhanson/course_proj2_cloud643/blob/main/user_images/image-20201209155742283.png)
 
