@@ -40,4 +40,22 @@
    spark-submit course_proj2_docker.py s3://dataset-cs643-proj/ValidationDataset.csv > result.txt
    ```
 
+4. #### Docker part
+
+   ```
+   git clone https://github.com/Choyhanson/course_proj2_cloud643.git
+   cd course_proj2_cloud643/main
    
+   ### run the spark frame jupyter by docker
+   sudo docker run -it --rm -p 8888:8888 -v/ /home/ubuntu/course_proj2_cloud643/main:/home/jovyan/work jupyter/pyspark-notebook
+   ```
+
+   copy the the url from last line, replace http://127.0.0.1 with your ec2 public DNS
+
+   ![image-20201210143208206](https://github.com/Choyhanson/course_proj2_cloud643/blob/main/user_images/image-20201210143208206.png)
+
+   ![image-20201210143501080](https://github.com/Choyhanson/course_proj2_cloud643/blob/main/user_images/image-20201210143501080.png)
+
+   Then can start the EMR-notebook with spark frame jupyter-notebook
+
+   ![image-20201210143858970](https://github.com/Choyhanson/course_proj2_cloud643/blob/main/user_images/image-20201210143858970.png)
