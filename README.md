@@ -1,4 +1,4 @@
-## Course Project 2 -- (CS643)		hc398		HonSan, Choy
+## Wine Quality Prediction - Apache Spark
 
 1. #### Create the EMR cluster to train an ML model in parallel on multiple EC2 instances (4 instances in total)
 
